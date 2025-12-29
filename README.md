@@ -10,7 +10,6 @@ This repository contains several specialized modules:
 - **04-Custom-IO-Library:** Re-implementation of `printf` and `scanf` using variadic functions.
 - **05-Doubly-Linked-List:** Dynamic bidirectional data structure management.
 - **06-Generic-Sort-Implementation:** Callback-based sorting mimicking `qsort`.
-- **07-PNM-Image-Processor:** Raster graphics manipulation engine.
 
 ## 🛠 Engineering Principles
 - **No `[]` Operator:** All memory access is performed via raw pointer arithmetic.
