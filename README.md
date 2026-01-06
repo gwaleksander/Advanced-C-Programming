@@ -12,7 +12,6 @@ This repository contains several specialized modules:
 - **06-Generic-Sort-Implementation:** Callback-based sorting mimicking `qsort`.
 
 ## 🛠 Engineering Principles
-- **No `[]` Operator:** All memory access is performed via raw pointer arithmetic.
 - **Memory Safety:** Every module is validated for memory leaks using Valgrind.
 - **Generic Programming:** Extensive use of `void *` and function pointers for type-agnostic logic.
 
