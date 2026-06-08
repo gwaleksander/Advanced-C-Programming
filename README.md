@@ -2,7 +2,7 @@
 
 A curated collection of low-level engineering challenges focused on pointer mastery, memory efficiency, and system-near logic.
 
-## 📂 Repository Structure
+## Repository Structure
 This repository contains several specialized modules:
 - **01-Data-Hiding-Techniques:** Steganography (LSB) and exploiting memory padding.
 - **02-Maze-Pathfinder:** Recursive backtracking and pathfinding algorithms.
@@ -11,10 +11,10 @@ This repository contains several specialized modules:
 - **05-Doubly-Linked-List:** Dynamic bidirectional data structure management.
 - **06-Generic-Sort-Implementation:** Callback-based sorting mimicking `qsort`.
 
-## 🛠 Engineering Principles
+## Engineering Principles
 - **Memory Safety:** Every module is validated for memory leaks using Valgrind.
 - **Generic Programming:** Extensive use of `void *` and function pointers for type-agnostic logic.
 
-## 🚀 How to Use
+## How to Use
 Each folder is self-contained with its own source files and headers. To compile any module:
 `gcc main.c module_name.c -o output`
